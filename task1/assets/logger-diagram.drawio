@@ -1,0 +1,92 @@
+<mxfile host="app.diagrams.net" modified="2023-08-30T14:40:06.628Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="opql0AYOlVUZY49f13t6" version="21.6.9">
+  <diagram name="Page-1" id="RjWRWzG-wmXWiTvwdGof">
+    <mxGraphModel dx="1257" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5xTLQ9JdpLJx6-bnSw1k-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5xTLQ9JdpLJx6-bnSw1k-1" target="5xTLQ9JdpLJx6-bnSw1k-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTLQ9JdpLJx6-bnSw1k-1" value="User calls Logger.log()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTLQ9JdpLJx6-bnSw1k-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5xTLQ9JdpLJx6-bnSw1k-3" target="5xTLQ9JdpLJx6-bnSw1k-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTLQ9JdpLJx6-bnSw1k-3" value="Logger.log() calls the internal logging method depending on level" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTLQ9JdpLJx6-bnSw1k-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5xTLQ9JdpLJx6-bnSw1k-5" target="5xTLQ9JdpLJx6-bnSw1k-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTLQ9JdpLJx6-bnSw1k-5" value="Logger.log() calls flushLog() to write to file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTLQ9JdpLJx6-bnSw1k-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5xTLQ9JdpLJx6-bnSw1k-8" target="5xTLQ9JdpLJx6-bnSw1k-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTLQ9JdpLJx6-bnSw1k-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5xTLQ9JdpLJx6-bnSw1k-8" target="5xTLQ9JdpLJx6-bnSw1k-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTLQ9JdpLJx6-bnSw1k-16" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5xTLQ9JdpLJx6-bnSw1k-13">
+          <mxGeometry x="-0.075" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5xTLQ9JdpLJx6-bnSw1k-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5xTLQ9JdpLJx6-bnSw1k-8" target="5xTLQ9JdpLJx6-bnSw1k-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="530" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="650" y="570" />
+              <mxPoint x="730" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5xTLQ9JdpLJx6-bnSw1k-17" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5xTLQ9JdpLJx6-bnSw1k-15">
+          <mxGeometry x="0.075" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5xTLQ9JdpLJx6-bnSw1k-8" value="Does file exist?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTLQ9JdpLJx6-bnSw1k-10" value="createNewLogFile()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTLQ9JdpLJx6-bnSw1k-14" value="appendExistingLogFile()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="610" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTLQ9JdpLJx6-bnSw1k-18" value="Logger" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="240" width="310" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTLQ9JdpLJx6-bnSw1k-19" value="- instance: Logger" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5xTLQ9JdpLJx6-bnSw1k-18">
+          <mxGeometry y="26" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTLQ9JdpLJx6-bnSw1k-25" value="&lt;div&gt;- logLevel: LogLevel&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5xTLQ9JdpLJx6-bnSw1k-18">
+          <mxGeometry y="52" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTLQ9JdpLJx6-bnSw1k-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="5xTLQ9JdpLJx6-bnSw1k-18">
+          <mxGeometry y="78" width="310" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTLQ9JdpLJx6-bnSw1k-21" value="- log(String log): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5xTLQ9JdpLJx6-bnSw1k-18">
+          <mxGeometry y="86" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTLQ9JdpLJx6-bnSw1k-28" value="- log(String log): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5xTLQ9JdpLJx6-bnSw1k-18">
+          <mxGeometry y="112" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTLQ9JdpLJx6-bnSw1k-27" value="- createNewLogFile(File file): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5xTLQ9JdpLJx6-bnSw1k-18">
+          <mxGeometry y="138" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTLQ9JdpLJx6-bnSw1k-24" value="- appendExistingLogFile(File file, String logMsg): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5xTLQ9JdpLJx6-bnSw1k-18">
+          <mxGeometry y="164" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTLQ9JdpLJx6-bnSw1k-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5xTLQ9JdpLJx6-bnSw1k-29" target="5xTLQ9JdpLJx6-bnSw1k-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5xTLQ9JdpLJx6-bnSw1k-29" value="Logger.log() prints formatted log to console" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
